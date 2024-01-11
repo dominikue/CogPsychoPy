@@ -3,21 +3,20 @@
   <h3 align="center">CogPsychoPy Template</h3>
 
   <p align="center">
-    An Awesome PsychoPy Blueprint to Jumpstart Your Projects!
+    An Awesome PsychoPy Blueprint to Jumpstart Your Experiments!
     <br/>
     <br/>
     <a href="https://github.com/ShaanCoding/CogPsychoPy"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/CogPsychoPy">View Demo</a>
     .
-    <a href="https://github.com/ShaanCoding/CogPsychoPy/issues">Report Bug</a>
+    <a href="https://github.com/dominikue/CogPsychoPy/issues">Report Bug</a>
     .
-    <a href="https://github.com/ShaanCoding/CogPsychoPy/issues">Request Feature</a>
+    <a href="https://github.com/dominikue/CogPsychoPy/issues">Request Feature</a>
   </p>
 </p>
 
-![Downloads](https://img.shields.io/github/downloads/ShaanCoding/CogPsychoPy/total) ![Contributors](https://img.shields.io/github/contributors/ShaanCoding/CogPsychoPy?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/ShaanCoding/CogPsychoPy?style=social) ![License](https://img.shields.io/github/license/ShaanCoding/CogPsychoPy) 
+![Downloads](https://img.shields.io/github/downloads/dominikue/CogPsychoPy/total) ![Contributors](https://img.shields.io/github/contributors/dominikue/CogPsychoPy?color=dark-green) ![Stargazers](https://img.shields.io/github/stars/dominikue/CogPsychoPy?style=social) ![License](https://img.shields.io/github/license/dominikue/CogPsychoPy) 
 
 ## Table Of Contents
 
