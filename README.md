@@ -1,15 +1,16 @@
 <br/>
 <p align="center">
-  <h3 align="center">CogPsychoPy Template</h3>
+  <h3 align="center">CogPsychoPy</h3>
 
   <p align="center">
     An Awesome PsychoPy Blueprint to Jumpstart Your Experiments!
     <br/>
     <br/>
-    <a href="https://github.com/ShaanCoding/CogPsychoPy"><strong>Explore the docs »</strong></a>
+    <!--
+    <a href="https://github.com/dominikue/CogPsychoPy"><strong>Explore the docs »</strong></a>
     <br/>
     <br/>
-    .
+    -->
     <a href="https://github.com/dominikue/CogPsychoPy/issues">Report Bug</a>
     .
     <a href="https://github.com/dominikue/CogPsychoPy/issues">Request Feature</a>
@@ -20,8 +21,7 @@
 
 ## Table Of Contents
 
-* [About the Project](#about-the-project)
-* [Built With](#built-with)
+* [About CogPsychoPy](#about-cogpsychopy)
 * [Getting Started](#getting-started)
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
@@ -31,36 +31,41 @@
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 
-## About The Project
+## About CogPsychoPy
 
-![Screen Shot](images/screenshot.png)
+<!-- ![Screen Shot](images/screenshot.png) -->
+<!-- Only using code -->
 
-There are many great README templates available on GitHub, however, I didn't find one that really suit my needs so I created this enhanced one. I want to create a README template so amazing that it'll be the last one you ever need.
+* Your time should be focused on creating an amazing experiment and not studying the PsychoPy documentation.
+* Easy to refactor and scaling for complex experiments
+* You should element [DRY principles](https://en.wikipedia.org/wiki/Don%27t_repeat_yourself) to the rest of your life :smile:
 
-Here's why:
+- [X] Using psychopys Handlers: [TrialHandler](https://psychopy.org/coder/codeTrials.html) and ExperimentHandler
+- [x] Using an yml file for the experiment config and conditions: Human readable and easy to edit
+- [x] Export the data using psychopy: [CSV, Log file, and backup .psydata](https://www.psychopy.org/general/dataOutputs.html)
+- [ ] Template for using the staircase handler: QuestPlus example
+- [ ] How to test experiments: [PsychoPy Runner](https://www.psychopy.org/runner/runner.html)
 
-* Your time should be focused on creating something amazing. A project that solves a problem and helps others
-* You shouldn't be doing the same tasks over and over like creating a README from scratch
-* You should element DRY principles to the rest of your life :smile:
-
-Of course, no one template will serve all projects since your needs may be different. So I'll be adding more in the near future. You may also suggest changes by forking this repo and creating a pull request or opening an issue.
+Of course, no one template will serve all experiments since your needs may be different. Feel free to suggest changes by forking this repo and creating a pull request or opening an issue.
 
 A list of commonly used resources that I find helpful are listed in the acknowledgements.
 
-## Built With
+*Built With* [PsychoPy](https://github.com/psychopy/psychopy).
 
-This section should list any major frameworks that you built your project using. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
 
 ## Getting Started
 
 This is an example of how you may give instructions on setting up your project locally.
 To get a local copy up and running follow these simple example steps.
 
+
 ### Prerequisites
+
+TODO: Update this section.
 
 This is an example of how to list things you need to use the software and how to install them.
 
-* npm
+* miniconda or micromamba
 
 ```sh
 npm install npm@latest -g
@@ -68,21 +73,21 @@ npm install npm@latest -g
 
 ### Installation
 
-1. Get a free API Key at [https://example.com](https://example.com)
+TODO: Update the installation guide
 
-2. Clone the repo
+1. Clone the repo
 
 ```sh
 git clone https://github.com/your_username_/Project-Name.git
 ```
 
-3. Install NPM packages
+2. Install NPM packages
 
 ```sh
 npm install
 ```
 
-4. Enter your API in `config.js`
+3. Enter your API in `config.js`
 
 ```JS
 const API_KEY = 'ENTER YOUR API';
@@ -120,4 +125,4 @@ Distributed under the MIT License. See [LICENSE](https://github.com/ShaanCoding/
 
 ## Acknowledgements
 
-* [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
+* README [Othneil Drew](https://github.com/othneildrew/Best-README-Template)
