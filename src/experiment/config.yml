@@ -1,0 +1,10 @@
+# ----------------------------------------------------------------------------------
+#                       Config.yml file for the Experiement.                       #
+# ----------------------------------------------------------------------------------
+dir_output: "../data/participants/"  # folder for the data
+screen:
+  id: 0 # [currently not used]
+  distance: 70 # in cm [currently not used]
+text:
+  instruction: "This is the instruction text."
+  instruction_start: "Start Text: Press any key to start the experiment."

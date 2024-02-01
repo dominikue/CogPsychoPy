@@ -1,0 +1,24 @@
+# ----------------------------------------------------------------------------------
+#                       Conditions for the  Experiement.                           # 
+# ----------------------------------------------------------------------------------
+name: "Puck Learning"
+version: pilot_1  # version
+n_repeats: 1
+break_each_n_repeats: 5
+# Number of repeats for each parameter combination: 
+#   total_trials = n_repeats * parameters_combinations
+method: random
+# Presents the conditions in the order they appear in the experiment
+#   - 'random' will result in a shuffle of the conditions on each repeat,
+#   - 'sequential' presents the conditions in the same order on each repeat,
+#      but all conditionsoccur once before the second repeat etc. 
+#   - 'fullRandom' fully randomises the trials across repeats as well,
+#      which means you could potentially run all trials of
+#      one condition before any trial of another.
+parameters:
+# parameters for the experiment
+#   for each parameter, the value is a list of values
+#   the experiment will be run for each combination of values 
+  weigth: [1.5, 2]  # weight of the condition
+  distance: [100]  # distance in pixels
+  # tetst: [1,2,3,5]
